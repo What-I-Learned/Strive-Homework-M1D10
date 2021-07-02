@@ -136,10 +136,12 @@ function emptyList(){
 
     let lastItem = uList.childNodes.length -1
 
-    while(uList.childNodes.length >0){
-        uList.removeChild(uList.childNodes[lastItem])
-        lastItem--
-    }
+    lastItem = 0
+
+    // while(uList.childNodes.length >0){
+    //     uList.removeChild(uList.childNodes[lastItem])
+    //     lastItem--
+    // }
 }
 emptyList()
 
