@@ -133,7 +133,7 @@ function addItemsToUl(item){
 //addItemsToUl("Hello")
 // 40) Write a function to empty a list
 function emptyList(){
-    let itemsOftheList = uList.childNodes;
+
     let lastItem = uList.childNodes.length -1
 
     while(uList.childNodes.length >0){
